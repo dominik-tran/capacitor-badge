@@ -5,19 +5,14 @@
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### Add iOS
 ```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
+cap add ios
 ```
 
-### Lints and fixes files
+### Build project
 ```
-yarn lint
+yarn build && cap sync ios
 ```
 
 ### Customize configuration
